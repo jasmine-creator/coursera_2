@@ -24,11 +24,13 @@ var nbr =words.length;
  	
  } else if(nbr<=3){
 $scope.result = "Enjoy!"; 
-document.getElementById('lunch-menu').style.color = ' #00FF00 ';
+//document.getElementById('lunch-menu').style.color = ' #00FF00 ';
+document.getElementById('coul').style.color='#00FF00';
 
  }else if(nbr>3){
 $scope.result = "Trop!"; 
-document.getElementById('lunch-menu').style.color = ' #00FF00 ';
+//document.getElementById('lunch-menu').style.color = ' #00FF00 ';
+document.getElementById('coul').style.color='#00FF00';
 
  }
 //placeholder="list comma separated dishes you usually have for lunch"
